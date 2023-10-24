@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- CSS -->
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
+  </head>
+
+  
+  <body>
+
+    <nav class="mt-mobile nav-open">
+      <div class="mt-munu-mb">         
+        <div class="header-navigation-wr">
+          <div class="header-navigation">
+            <ul class="header_ul burger_ul">
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Компания
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Услуги
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    разработка
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Кейсы
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    вакансии
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Блог
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Контакты
+                  </a>
+                </li>
+            </ul>
+            <div class="header_button burger_button">
+              <button>
+                Маленькая кнопка
+              </button>
+            </div>
+          </div>            
+        </div>  
+      </div>  
+    </nav>
+    
+    <header class="header">
+      <div class="container">
+        <div class="header_wrap">
+          <div class="burger">
+            <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.75426 6.1121H21.2448C21.6614 6.1121 21.9995 5.70637 21.9995 5.20644C21.9995 4.70652 21.6614 4.30078 21.2448 4.30078H2.75426C2.33766 4.30078 1.99954 4.70652 1.99954 5.20644C1.99954 5.70637 2.33766 6.1121 2.75426 6.1121Z" fill="#0C1018"/>
+            <path d="M2.75426 12.9051H21.2448C21.6614 12.9051 21.9995 12.4993 21.9995 11.9994C21.9995 11.4995 21.6614 11.0938 21.2448 11.0938H2.75426C2.33766 11.0938 1.99954 11.4995 1.99954 11.9994C1.99954 12.4993 2.33766 12.9051 2.75426 12.9051Z" fill="#0C1018"/>
+            <path d="M2.75426 19.698H21.2448C21.6614 19.698 21.9995 19.2923 21.9995 18.7924C21.9995 18.2925 21.6614 17.8867 21.2448 17.8867H2.75426C2.33766 17.8867 1.99954 18.2925 1.99954 18.7924C1.99954 19.2923 2.33766 19.698 2.75426 19.698Z" fill="#0C1018"/>
+            </svg>
+            </i>
+                <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.28186 18.7174C5.40927 18.8449 5.55696 18.929 5.72492 18.9696C5.89867 19.0101 6.06663 19.0101 6.2288 18.9696C6.39676 18.929 6.54155 18.8478 6.66318 18.7261L12.006 13.3783L17.3402 18.7261C17.4618 18.8478 17.6066 18.929 17.7746 18.9696C17.9425 19.0101 18.1105 19.0101 18.2784 18.9696C18.4464 18.929 18.5941 18.8449 18.7215 18.7174C18.8431 18.5957 18.9242 18.4507 18.9648 18.2826C19.0053 18.1145 19.0053 17.9493 18.9648 17.787C18.9242 17.6188 18.8431 17.471 18.7215 17.3435L13.3873 11.9957L18.7215 6.65652C18.8431 6.52899 18.9242 6.38406 18.9648 6.22174C19.0111 6.05362 19.0111 5.88551 18.9648 5.71739C18.9242 5.54928 18.8431 5.40435 18.7215 5.28261C18.5883 5.15507 18.4377 5.07101 18.2698 5.03043C18.1076 4.98986 17.9425 4.98986 17.7746 5.03043C17.6066 5.06522 17.4618 5.14638 17.3402 5.27391L12.006 10.6217L6.66318 5.27391C6.54155 5.15217 6.39676 5.07101 6.2288 5.03043C6.06084 4.98986 5.89288 4.98986 5.72492 5.03043C5.55696 5.07101 5.40927 5.15507 5.28186 5.28261C5.16023 5.40435 5.07915 5.54928 5.03861 5.71739C4.99806 5.88551 4.99806 6.05362 5.03861 6.22174C5.07915 6.38986 5.16023 6.53188 5.28186 6.64783L10.616 11.9957L5.28186 17.3522C5.16023 17.4681 5.07625 17.6101 5.02992 17.7783C4.98938 17.9464 4.98938 18.1145 5.02992 18.2826C5.07046 18.4507 5.15444 18.5957 5.28186 18.7174Z" fill="black"/>
+                </svg>
+
+            </i> 
+          </div>
+          <div class="header_logo">
+            <a href="#">
+              <img src="images/header_logo.png" alt="">
+            </a>
+          </div>
+          <div class="header_right">
+            <div class="header_nav">
+              <ul class="header_ul">
+                <li class="header_li">
+                  <a href="#">
+                    Компания
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    Услуги
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    разработка
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    Кейсы
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    вакансии
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    Блог
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="header_button">
+              <button>
+                Маленькая кнопка
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="seeds">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#">
+              Главная
+            </a>
+          </li>
+          <li>
+            <p>
+              Блог
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="container">
+        <h1 class="title">
+          Наш блог
+        </h1>
+        <div class="blog_tabs">
+          <ul class="tabs">
+              <li class="active" rel="tab1">Все статьи </li>
+              <li rel="tab2">Интервью</li>
+              <li rel="tab3">Кейсы</li>
+              <li rel="tab4">Новости</li>
+          </ul>
+        </div>
+        <div class="blog_content">
+          <div class="tab_container">
+            <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 1</h3>
+            <div id="tab1" class="tab_content">
+              <div class="blog_wrap">
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#17A2B8"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img2.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#E0E0E0"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img3.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#FDC959"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#B4A0D1"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img2.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#00E4B4"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img3.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#0988FD"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 2</h3>
+            <div id="tab2" class="tab_content">
+              <div class="blog_wrap">
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#17A2B8"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img2.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#E0E0E0"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img3.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#FDC959"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#B4A0D1"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img2.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#00E4B4"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img3.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#0988FD"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 3</h3>
+            <div id="tab3" class="tab_content">
+              <div class="blog_wrap">
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#17A2B8"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img2.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#E0E0E0"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img3.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#FDC959"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#B4A0D1"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img2.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#00E4B4"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img3.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#0988FD"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 4</h3>
+            <div id="tab4" class="tab_content">
+              <div class="blog_wrap">
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#17A2B8"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img2.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#E0E0E0"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img3.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#FDC959"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#B4A0D1"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img2.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#00E4B4"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="blog_block">
+                  <a href="#" class="blog_border">
+                    <div class="blog_img">
+                      <img src="images/blog_img3.png" alt="">
+                    </div>
+                    <div class="blog_title">
+                      Текст о статье, о том о чем и тд...
+                    </div>
+                    <div class="blog_suptitle">
+                      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    </div>
+                    <div class="blog_arrow">
+                      <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.6979 37.9537C13.1083 37.9537 11.8196 36.6651 11.8196 35.0755C11.8196 33.4859 13.1083 32.1972 14.6979 32.1972L46.3585 32.1972L32.5717 18.4105C31.4431 17.2819 31.4431 15.452 32.5717 14.3234C33.7003 13.1948 35.5302 13.1948 36.6588 14.3234L57.4109 35.0755L36.6588 55.8275C35.5302 56.9562 33.7003 56.9562 32.5717 55.8275C31.4431 54.6989 31.4431 52.8691 32.5717 51.7404L46.3585 37.9537L14.6979 37.9537Z" fill="#0988FD"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    <section class="discuss">
+      <div class="container container2">
+        <div class="discuss_boder">
+          <div class="discuss_zindex">
+            <div class="discuss_pd">
+              <h2 class="title2">
+                обсудить
+              </h2>
+            </div>
+            <div class="discuss_pd2">
+              <h2 class="title2">
+                проект
+              </h2>
+            </div>
+            <div class="discuss_title">
+              <p>
+                Заполните контактную форму и мы свяжемся с вами в ближайшее время.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="discuss_inner">
+          <div class="discuss_block">
+            <div class="discuss_button">
+              <button>
+                Форма обратной связи
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_top">
+          <div class="footer_logo">
+            <a href="#">
+              <img src="images/header_logo.png" alt="">
+            </a>
+          </div>
+          <div class="footer_back_top footer_back_top_mb to-top">
+            <a class="back-to-top ion-chevron-up" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="71" height="36" viewBox="0 0 71 36" fill="none">
+              <path d="M1 34C0.447715 34 0 34.4477 0 35C0 35.5523 0.447715 36 1 36V34ZM63 35V36H64V35H63ZM63.7071 0.292893C63.3166 -0.0976311 62.6834 -0.0976311 62.2929 0.292893L55.9289 6.65685C55.5384 7.04738 55.5384 7.68054 55.9289 8.07107C56.3195 8.46159 56.9526 8.46159 57.3431 8.07107L63 2.41421L68.6569 8.07107C69.0474 8.46159 69.6805 8.46159 70.0711 8.07107C70.4616 7.68054 70.4616 7.04738 70.0711 6.65685L63.7071 0.292893ZM1 36H63V34H1V36ZM64 35V1H62V35H64Z" fill="#151A1B"/>
+              </svg>
+            </a>
+          </div>
+          <div class="footer_nav">
+            <ul class="header_ul footer_nav_ul">
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Компания
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Услуги
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    разработка
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Кейсы
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    вакансии
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Блог
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div class="footer_back_top footer_back_top_dk to-top">
+            <a class="back-to-top ion-chevron-up" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="71" height="36" viewBox="0 0 71 36" fill="none">
+              <path d="M1 34C0.447715 34 0 34.4477 0 35C0 35.5523 0.447715 36 1 36V34ZM63 35V36H64V35H63ZM63.7071 0.292893C63.3166 -0.0976311 62.6834 -0.0976311 62.2929 0.292893L55.9289 6.65685C55.5384 7.04738 55.5384 7.68054 55.9289 8.07107C56.3195 8.46159 56.9526 8.46159 57.3431 8.07107L63 2.41421L68.6569 8.07107C69.0474 8.46159 69.6805 8.46159 70.0711 8.07107C70.4616 7.68054 70.4616 7.04738 70.0711 6.65685L63.7071 0.292893ZM1 36H63V34H1V36ZM64 35V1H62V35H64Z" fill="#151A1B"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container container2">
+        <div class="footer_restagle"></div>
+      </div>
+      <div class="container">
+        <div class="footer_bottom">
+          <div class="footer_title">
+            © 2023 AXAS
+          </div>
+          <ul class="footer_ul">
+            <li class="footer_li">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                <g clip-path="url(#clip0_901_2525)">
+                <circle cx="22" cy="22" r="22" fill="#444444"/>
+                <path d="M10.2857 22.4114L15.3436 24.2974L17.3153 30.6412C17.401 31.0699 17.9154 31.1556 18.2583 30.8984L21.0873 28.5838C21.3445 28.3266 21.7731 28.3266 22.116 28.5838L27.1739 32.27C27.5168 32.5272 28.0312 32.3558 28.1169 31.9271L31.8889 13.9245C31.9746 13.4958 31.546 13.0672 31.1173 13.2387L10.2857 21.297C9.77131 21.4684 9.77131 22.24 10.2857 22.4114ZM17.0581 23.3544L27.0024 17.2678C27.1739 17.1821 27.3453 17.4393 27.1739 17.525L19.0298 25.1547C18.7726 25.4119 18.5155 25.7548 18.5155 26.1834L18.2583 28.2409C18.2583 28.4981 17.8297 28.5838 17.7439 28.2409L16.7152 24.4689C16.458 24.0403 16.6295 23.5259 17.0581 23.3544Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_901_2525">
+                <rect width="44" height="44" rx="22" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_li">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                <g clip-path="url(#clip0_901_2521)">
+                <circle cx="22" cy="22" r="22" fill="#444444"/>
+                <path d="M30.7195 13.2687C28.5463 11.103 25.6488 9.8999 22.5902 9.8999C16.2317 9.8999 11.0805 15.0332 11.0805 21.3697C11.0805 23.3749 11.6439 25.3801 12.6098 27.0645L11 32.9999L17.1171 31.3957C18.8073 32.278 20.6585 32.7593 22.5902 32.7593C28.9488 32.7593 34.1 27.6259 34.1 21.2895C34.0195 18.3218 32.8927 15.4343 30.7195 13.2687ZM28.1439 25.4603C27.9024 26.102 26.7756 26.7437 26.2122 26.8239C25.7293 26.9041 25.0854 26.9041 24.4415 26.7437C24.039 26.5832 23.4756 26.4228 22.8317 26.102C19.9341 24.8989 18.0829 22.0114 17.922 21.7707C17.761 21.6103 16.7146 20.2468 16.7146 18.803C16.7146 17.3593 17.439 16.7176 17.6805 16.3968C17.922 16.0759 18.2439 16.0759 18.4854 16.0759C18.6463 16.0759 18.8878 16.0759 19.0488 16.0759C19.2098 16.0759 19.4512 15.9957 19.6927 16.5572C19.9341 17.1187 20.4976 18.5624 20.578 18.6426C20.6585 18.803 20.6585 18.9634 20.578 19.1239C20.4976 19.2843 20.4171 19.4447 20.2561 19.6051C20.0951 19.7655 19.9341 20.0062 19.8537 20.0864C19.6927 20.2468 19.5317 20.4072 19.6927 20.6478C19.8537 20.9687 20.4171 21.8509 21.3024 22.653C22.4293 23.6155 23.3146 23.9364 23.6366 24.0968C23.9585 24.2572 24.1195 24.177 24.2805 24.0166C24.4415 23.8562 25.0049 23.2145 25.1659 22.8937C25.3268 22.5728 25.5683 22.653 25.8098 22.7332C26.0512 22.8134 27.5 23.5353 27.7415 23.6957C28.0634 23.8562 28.2244 23.9364 28.3049 24.0166C28.3854 24.2572 28.3854 24.8187 28.1439 25.4603Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_901_2521">
+                <rect width="44" height="44" rx="22" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+  </body>
+
+  
+</html>

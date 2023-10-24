@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- CSS -->
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
+  </head>
+
+  
+  <body>
+
+    <nav class="mt-mobile nav-open">
+      <div class="mt-munu-mb">         
+        <div class="header-navigation-wr">
+          <div class="header-navigation">
+            <ul class="header_ul burger_ul">
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Компания
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Услуги
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    разработка
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Кейсы
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    вакансии
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Блог
+                  </a>
+                </li>
+                <li class="header_li burger_li">
+                  <a href="#">
+                    Контакты
+                  </a>
+                </li>
+            </ul>
+            <div class="header_button burger_button">
+              <button>
+                Маленькая кнопка
+              </button>
+            </div>
+          </div>            
+        </div>  
+      </div>  
+    </nav>
+    
+    <header class="header">
+      <div class="container">
+        <div class="header_wrap">
+          <div class="burger">
+            <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.75426 6.1121H21.2448C21.6614 6.1121 21.9995 5.70637 21.9995 5.20644C21.9995 4.70652 21.6614 4.30078 21.2448 4.30078H2.75426C2.33766 4.30078 1.99954 4.70652 1.99954 5.20644C1.99954 5.70637 2.33766 6.1121 2.75426 6.1121Z" fill="#0C1018"/>
+            <path d="M2.75426 12.9051H21.2448C21.6614 12.9051 21.9995 12.4993 21.9995 11.9994C21.9995 11.4995 21.6614 11.0938 21.2448 11.0938H2.75426C2.33766 11.0938 1.99954 11.4995 1.99954 11.9994C1.99954 12.4993 2.33766 12.9051 2.75426 12.9051Z" fill="#0C1018"/>
+            <path d="M2.75426 19.698H21.2448C21.6614 19.698 21.9995 19.2923 21.9995 18.7924C21.9995 18.2925 21.6614 17.8867 21.2448 17.8867H2.75426C2.33766 17.8867 1.99954 18.2925 1.99954 18.7924C1.99954 19.2923 2.33766 19.698 2.75426 19.698Z" fill="#0C1018"/>
+            </svg>
+            </i>
+                <i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.28186 18.7174C5.40927 18.8449 5.55696 18.929 5.72492 18.9696C5.89867 19.0101 6.06663 19.0101 6.2288 18.9696C6.39676 18.929 6.54155 18.8478 6.66318 18.7261L12.006 13.3783L17.3402 18.7261C17.4618 18.8478 17.6066 18.929 17.7746 18.9696C17.9425 19.0101 18.1105 19.0101 18.2784 18.9696C18.4464 18.929 18.5941 18.8449 18.7215 18.7174C18.8431 18.5957 18.9242 18.4507 18.9648 18.2826C19.0053 18.1145 19.0053 17.9493 18.9648 17.787C18.9242 17.6188 18.8431 17.471 18.7215 17.3435L13.3873 11.9957L18.7215 6.65652C18.8431 6.52899 18.9242 6.38406 18.9648 6.22174C19.0111 6.05362 19.0111 5.88551 18.9648 5.71739C18.9242 5.54928 18.8431 5.40435 18.7215 5.28261C18.5883 5.15507 18.4377 5.07101 18.2698 5.03043C18.1076 4.98986 17.9425 4.98986 17.7746 5.03043C17.6066 5.06522 17.4618 5.14638 17.3402 5.27391L12.006 10.6217L6.66318 5.27391C6.54155 5.15217 6.39676 5.07101 6.2288 5.03043C6.06084 4.98986 5.89288 4.98986 5.72492 5.03043C5.55696 5.07101 5.40927 5.15507 5.28186 5.28261C5.16023 5.40435 5.07915 5.54928 5.03861 5.71739C4.99806 5.88551 4.99806 6.05362 5.03861 6.22174C5.07915 6.38986 5.16023 6.53188 5.28186 6.64783L10.616 11.9957L5.28186 17.3522C5.16023 17.4681 5.07625 17.6101 5.02992 17.7783C4.98938 17.9464 4.98938 18.1145 5.02992 18.2826C5.07046 18.4507 5.15444 18.5957 5.28186 18.7174Z" fill="black"/>
+                </svg>
+
+            </i> 
+          </div>
+          <div class="header_logo">
+            <a href="#">
+              <img src="images/header_logo.png" alt="">
+            </a>
+          </div>
+          <div class="header_right">
+            <div class="header_nav">
+              <ul class="header_ul">
+                <li class="header_li">
+                  <a href="#">
+                    Компания
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    Услуги
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    разработка
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    Кейсы
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    вакансии
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    Блог
+                  </a>
+                </li>
+                <li class="header_li">
+                  <a href="#">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="header_button">
+              <button>
+                Маленькая кнопка
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="one">
+      <div class="container">
+        <div class="one_width">
+          <h1 class="title2 title_color title_center">
+            <span class="title_span">больше</span> чем просто студия
+          </h1>
+        </div>
+        <div class="one_title">
+          <p>
+            Создаем функциональные приложения и сервисы с фокусом на дизайн, которые позволяют расти, зарабатывать или экономить.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="two">
+      <div class="container container2">
+        <div class="two_wrap">
+          <div class="two_block">
+            <div class="two_arrow">
+              <img src="images/two_arrow.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="two_border">
+          <div class="two_border_block">
+            <h2 class="title title_line title_color2">
+              Можем делать быстро, качественно, <br>а главное - круто
+            </h2>
+            <div class="two_title">
+              <p>
+                Поможем решить любую задачу, реализовать приложение, которое закроет боли и потребности пользователей и повысит рентабельность бизнеса. AXAS более 5 лет создает приложения для лидеров рынка из сфер финтеха, ритейла, фудтеха, корпоративного сектора.
+              </p>
+            </div>
+          </div>
+          <div class="two_border_block2">
+            <div class="two_img">
+              <img src="images/two_img.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tree">
+      <div class="container">
+        <h2 class="title">
+          Вам нужно мобильное приложение, если вы хотите:
+        </h2>
+      </div>
+      <div class="container container2">
+        <div class="tree_wrap">
+          <div class="tree_block">
+            <div class="tree_img">
+              <img src="images/tree_img.png" alt="">
+            </div>
+            <div class="tree_button">
+              <button class="free_button">Обсудить проект</button>
+            </div>
+          </div>
+          <div class="tree_block2">
+            <div class="tree_info">
+              <div class="tree_number">
+                01.
+              </div>
+              <div class="tree_text">
+                <div class="tree_title">
+                  Повысить выручку бизнеса
+                </div>
+                <div class="tree_suptitle">
+                  За счет запуска нового цифрового канала продаж. Согласно отчету App Annie в 2021 году россияне покупали в мобильных приложениях на 19% больше, чем в 2020.
+                </div>
+              </div>
+            </div>
+            <div class="tree_info">
+              <div class="tree_number">
+                02.
+              </div>
+              <div class="tree_text">
+                <div class="tree_title">
+                  Оперативно занять место брендов, ушедших из России
+                </div>
+                <div class="tree_suptitle">
+                  Предложить клиентам замену зарубежных сервисов и товаров.
+                </div>
+              </div>
+            </div>
+            <div class="tree_info">
+              <div class="tree_number">
+                03.
+              </div>
+              <div class="tree_text">
+                <div class="tree_title">
+                  Автоматизировать бизнес-процессы
+                </div>
+                <div class="tree_suptitle">
+                  Ускорить работу HR отдела, экономить работу менеджеров, увеличить средний чек и многое другое.
+                </div>
+              </div>
+            </div>
+            <div class="tree_info">
+              <div class="tree_number">
+                04.
+              </div>
+              <div class="tree_text">
+                <div class="tree_title">
+                  Повысить лояльность клиентов
+                </div>
+                <div class="tree_suptitle">
+                  За счет простоты коммуникации в мобильном приложении, реализации программы лояльности, персонализированного подхода.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="four">
+      <div class="container">
+        <h2 class="title">
+          Преимущества работы с нами
+        </h2>
+      </div>
+      <div class="container container2">
+        <div class="four_wrap">
+          <div class="four_block">
+            <div class="four_border">
+              <h3>
+                Инновационные технологии
+              </h3>
+              <p>
+                IT-компании всегда идут в ногу со временем, используя новейшие технологии и инструменты для создания уникальных и качественных приложений.
+              </p>
+            </div>
+            <div class="four_border2">
+              <div class="four_mr">
+                <h3>
+                  Быстрое реагирование
+                </h3>
+                <p>
+                  IT-студия может быстро реагировать на изменения в требованиях и предпочтениях пользователей, что позволяет создавать актуальные и востребованные приложения
+                </p>
+              </div>
+              <div class="four_mr2">
+                <h3>
+                  Опыт <br>и профессионализм
+                </h3>
+                <p>
+                  IT-компании всегда идут в ногу со временем, используя новейшие технологии и инструменты для создания уникальныхи качественных приложений
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="four_block2">
+            <div class="four_inline">
+              <div class="four_border3">
+                <h3>
+                  Экономия времени
+                </h3>
+                <p>
+                  Делегируйте разработку мобильного приложения профессионалам
+                </p>
+              </div>
+              <div class="four_border4">
+                <div class="four_border4_mr">
+                  <h3>
+                    Адаптивность
+                  </h3>
+                </div>
+                <div class="four_border4_mr2">
+                  <p>
+                    Мобильные приложения, разработанные профессионалами, легко адаптируются под разные устройства и операционные системы, обеспечивая удобство и комфорт пользователей
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="four_border5">
+              <h3>
+                Комплексный подход
+              </h3>
+              <p>
+                Тут нужен текст подлиннее <br><br>IT-компании всегда идут в ногу со временем, используя новейшие технологии и инструменты для создания уникальных и качественных приложений
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="four_inner">
+          <div class="four_inner_block">
+            <div class="four_button">
+              <button class="free_button">Обсудить проект</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="five">
+      <div class="container">
+        <h2 class="title">
+          Этапы нашей работы
+        </h2>
+        <div class="five_wrap">
+          <div class="five_block">
+            <div class="five_border">
+              <div class="five_justy">
+                <div class="five_number five_number_color">
+                  01
+                </div>
+                <div class="five_title">
+                  Определение целей и задач приложения
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="five_block">
+            <div class="five_border">
+              <div class="five_justy">
+                <div class="five_number five_number_color2">
+                  02
+                </div>
+                <div class="five_title">
+                  Анализ требований и изучение целевой аудитории
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="five_block">
+            <div class="five_border">
+              <div class="five_justy">
+                <div class="five_number five_number_color3">
+                  03
+                </div>
+                <div class="five_title">
+                  Проектирование и создание макета интерфейса
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="five_block">
+            <div class="five_border">
+              <div class="five_justy">
+                <div class="five_number five_number_color4">
+                  04
+                </div>
+                <div class="five_title">
+                  Разработка программного кода
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="five_block">
+            <div class="five_border">
+              <div class="five_justy">
+                <div class="five_number five_number_color5">
+                  05
+                </div>
+                <div class="five_title">
+                  Тестирование приложения
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="five_block">
+            <div class="five_border">
+              <div class="five_justy">
+                <div class="five_number five_number_color6">
+                  06
+                </div>
+                <div class="five_title">
+                  Запуск приложения и его поддержка
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="six">
+      <div class="container container2">
+        <div class="six_border">
+          <h2 class="title">
+            Ищите компанию – разработчика мобильных приложений, тогда вам к нам!
+          </h2>
+          <div class="six_wrap">
+            <div class="six_title">
+              <p>
+                Мы в AXAS озабочены качеством обслуживания клиентов и всегда готовы помочь в реализации ваших проектов и достижении поставленных целей.
+              </p>
+            </div>
+            <div class="six_button">
+              <button class="free_button">
+                Обсудить проект
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seven">
+      <div class="container">
+        <h2 class="title">
+          Над чем мы работали
+        </h2>
+      </div>
+      <div class="container container2">
+        <div class="seven_wrap">
+          <div class="seven_block">
+            <a class="seven_border" href="#">
+              <img src="images/seven_img.png" alt="">
+              <div class="sever_mr">
+                <img src="images/seven_img2.png" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="seven_block2">
+            <a class="seven_border seven_border_pd" href="#">
+              <img src="images/seven_img3.png" alt="">
+            </a>
+          </div>
+          <div class="seven_block2">
+            <a class="seven_border seven_border_pd" href="#">
+              <img src="images/seven_img4.png" alt="">
+            </a>
+          </div>
+          <div class="seven_block2">
+            <a class="seven_border seven_border_pd" href="#">
+              <img src="images/seven_img5.png" alt="">
+            </a>
+          </div>
+          <div class="seven_block2">
+            <a class="seven_border seven_border_pd" href="#">
+              <img src="images/seven_img6.png" alt="">
+            </a>
+          </div>
+          <div class="seven_block2">
+            <a class="seven_border seven_border_pd" href="#">
+              <img src="images/seven_img7.png" alt="">
+            </a>
+          </div>
+          <div class="seven_block">
+            <a class="seven_border" href="#">
+              <img src="images/seven_img9.png" alt="">
+              <div class="sever_mr">
+                <img src="images/seven_img8.png" alt="">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="seven_ineer">
+          <div class="seven_link">
+            <a href="#">
+              Все кейсы
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slayd">
+      <div class="container">
+        <h2 class="title">
+          Что пишут о нас
+        </h2>
+      </div>
+      <div class="container slayd_container">
+        <div class="slayd_slayder">
+          <div class="slider slayd_sl">
+            <div>
+              <div class="slayd_block">
+                <div class="slayd_border">
+                  <div class="slayd_justy">
+                    <div class="slayd_top">
+                      <div class="slayd_large slayd_large_color">
+                        “
+                      </div>
+                      <div class="slayd_title">
+                        Круто всё задизайнили, реализовали весь функционал, что мне был нужен, если заработаю на ещё одно приложение, то обязательно обращусь к ним снова.
+                      </div>
+                      <div class="slayd_restagle"></div>
+                    </div>
+                    <div class="slayd_bottom">
+                      <div class="slayd_img">
+                        <img src="images/slayd_img.png" alt="">
+                      </div>
+                      <div class="slayd_name">
+                        Полякова Софья
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="slayd_block">
+                <div class="slayd_border">
+                  <div class="slayd_justy">
+                    <div class="slayd_top">
+                      <div class="slayd_large slayd_large_color3">
+                        “
+                      </div>
+                      <div class="slayd_title">
+                        Все задачи были выполнены в срок и с учетом всех моих пожеланий. Однозначно буду продолжать сотрудничество и рекомендовать эту компанию своим знакомым.
+                      </div>
+                      <div class="slayd_restagle"></div>
+                    </div>
+                    <div class="slayd_bottom">
+                      <div class="slayd_img">
+                        <img src="images/slayd_img3.png" alt="">
+                      </div>
+                      <div class="slayd_name">
+                        Ковалев Григорий
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="slayd_block">
+                <div class="slayd_border">
+                  <div class="slayd_justy">
+                    <div class="slayd_top">
+                      <div class="slayd_large slayd_large_color3">
+                        “
+                      </div>
+                      <div class="slayd_title">
+                        Все задачи были выполнены в срок и с учетом всех моих пожеланий. Однозначно буду продолжать сотрудничество и рекомендовать эту компанию своим знакомым.
+                      </div>
+                      <div class="slayd_restagle"></div>
+                    </div>
+                    <div class="slayd_bottom">
+                      <div class="slayd_img">
+                        <img src="images/slayd_img3.png" alt="">
+                      </div>
+                      <div class="slayd_name">
+                        Ковалев Григорий
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="slayd_block">
+                <div class="slayd_border">
+                  <div class="slayd_justy">
+                    <div class="slayd_top">
+                      <div class="slayd_large slayd_large_color2">
+                        “
+                      </div>
+                      <div class="slayd_title">
+                        Спасибо ребятам за профессиональное и качественное выполнение работ! Рекомендую  всем, кто ценит надежность и компетентность в работе.
+                      </div>
+                      
+                    </div>
+                    <div class="slayd_bottom">
+                      <div class="slayd_img">
+                        <img src="images/slayd_img2.png" alt="">
+                      </div>
+                      <div class="slayd_name">
+                        Воробьев Михаил
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="slayd_block">
+                <div class="slayd_border">
+                  <div class="slayd_justy">
+                    <div class="slayd_top">
+                      <div class="slayd_large slayd_large_color2">
+                        “
+                      </div>
+                      <div class="slayd_title">
+                        Спасибо ребятам за профессиональное и качественное выполнение работ! Рекомендую  всем, кто ценит надежность и компетентность в работе.
+                      </div>
+                      
+                    </div>
+                    <div class="slayd_bottom">
+                      <div class="slayd_img">
+                        <img src="images/slayd_img2.png" alt="">
+                      </div>
+                      <div class="slayd_name">
+                        Воробьев Михаил
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="comands">
+      <div class="container">
+        <h2 class="title">
+          Наша команда
+        </h2>
+      </div>
+      <div class="container comands_container">
+        <div class="comands_slayder">
+          <div class="slider comands_sl">
+            <div>
+              <div class="comands_block">
+                <div class="comands_border">
+                  <div class="comands_img">
+                    <img src="images/comands_img.png" alt="">
+                  </div>
+                  <div class="comands_name">
+                    Имя Фамилия
+                  </div>
+                  <div class="comands_position">
+                    Должность
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="comands_block2">
+                <div class="comands_border">
+                  <div class="comands_img">
+                    <img src="images/comands_img2.png" alt="">
+                  </div>
+                  <div class="comands_name">
+                    Имя Фамилия
+                  </div>
+                  <div class="comands_position">
+                    Должность
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="comands_block">
+                <div class="comands_border">
+                  <div class="comands_img">
+                    <img src="images/comands_img3.png" alt="">
+                  </div>
+                  <div class="comands_name">
+                    Имя Фамилия
+                  </div>
+                  <div class="comands_position">
+                    Должность
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="comands_block2">
+                <div class="comands_border">
+                  <div class="comands_img">
+                    <img src="images/comands_img4.png" alt="">
+                  </div>
+                  <div class="comands_name">
+                    Имя Фамилия
+                  </div>
+                  <div class="comands_position">
+                    Должность
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="comands_block">
+                <div class="comands_border">
+                  <div class="comands_img">
+                    <img src="images/comands_img5.png" alt="">
+                  </div>
+                  <div class="comands_name">
+                    Имя Фамилия
+                  </div>
+                  <div class="comands_position">
+                    Должность
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="comands_block2">
+                <div class="comands_border">
+                  <div class="comands_img">
+                    <img src="images/comands_img6.png" alt="">
+                  </div>
+                  <div class="comands_name">
+                    Имя Фамилия
+                  </div>
+                  <div class="comands_position">
+                    Должность
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="comands_block">
+                <div class="comands_border">
+                  <div class="comands_img">
+                    <img src="images/comands_img.png" alt="">
+                  </div>
+                  <div class="comands_name">
+                    Имя Фамилия
+                  </div>
+                  <div class="comands_position">
+                    Должность
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="comands_block2">
+                <div class="comands_border">
+                  <div class="comands_img">
+                    <img src="images/comands_img2.png" alt="">
+                  </div>
+                  <div class="comands_name">
+                    Имя Фамилия
+                  </div>
+                  <div class="comands_position">
+                    Должность
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="discuss">
+      <div class="container container2">
+        <div class="discuss_boder">
+          <div class="discuss_zindex">
+            <div class="discuss_pd">
+              <h2 class="title2">
+                обсудить
+              </h2>
+            </div>
+            <div class="discuss_pd2">
+              <h2 class="title2">
+                проект
+              </h2>
+            </div>
+            <div class="discuss_title">
+              <p>
+                Заполните контактную форму и мы свяжемся с вами в ближайшее время.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="discuss_inner">
+          <div class="discuss_block">
+            <div class="discuss_button">
+              <button>
+                Форма обратной связи
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_top">
+          <div class="footer_logo">
+            <a href="#">
+              <img src="images/header_logo.png" alt="">
+            </a>
+          </div>
+          <div class="footer_back_top footer_back_top_mb">
+            <a class="back-to-top ion-chevron-up" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="71" height="36" viewBox="0 0 71 36" fill="none">
+              <path d="M1 34C0.447715 34 0 34.4477 0 35C0 35.5523 0.447715 36 1 36V34ZM63 35V36H64V35H63ZM63.7071 0.292893C63.3166 -0.0976311 62.6834 -0.0976311 62.2929 0.292893L55.9289 6.65685C55.5384 7.04738 55.5384 7.68054 55.9289 8.07107C56.3195 8.46159 56.9526 8.46159 57.3431 8.07107L63 2.41421L68.6569 8.07107C69.0474 8.46159 69.6805 8.46159 70.0711 8.07107C70.4616 7.68054 70.4616 7.04738 70.0711 6.65685L63.7071 0.292893ZM1 36H63V34H1V36ZM64 35V1H62V35H64Z" fill="#151A1B"/>
+              </svg>
+            </a>
+          </div>
+          <div class="footer_nav">
+            <ul class="header_ul footer_nav_ul">
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Компания
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Услуги
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    разработка
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Кейсы
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    вакансии
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Блог
+                  </a>
+                </li>
+                <li class="header_li footer_nav_li">
+                  <a href="#">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+          </div>
+          <div class="footer_back_top footer_back_top_dk">
+            <a class="back-to-top ion-chevron-up" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="71" height="36" viewBox="0 0 71 36" fill="none">
+              <path d="M1 34C0.447715 34 0 34.4477 0 35C0 35.5523 0.447715 36 1 36V34ZM63 35V36H64V35H63ZM63.7071 0.292893C63.3166 -0.0976311 62.6834 -0.0976311 62.2929 0.292893L55.9289 6.65685C55.5384 7.04738 55.5384 7.68054 55.9289 8.07107C56.3195 8.46159 56.9526 8.46159 57.3431 8.07107L63 2.41421L68.6569 8.07107C69.0474 8.46159 69.6805 8.46159 70.0711 8.07107C70.4616 7.68054 70.4616 7.04738 70.0711 6.65685L63.7071 0.292893ZM1 36H63V34H1V36ZM64 35V1H62V35H64Z" fill="#151A1B"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="container container2">
+        <div class="footer_restagle"></div>
+      </div>
+      <div class="container">
+        <div class="footer_bottom">
+          <div class="footer_title">
+            © 2023 AXAS
+          </div>
+          <ul class="footer_ul">
+            <li class="footer_li">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                <g clip-path="url(#clip0_901_2525)">
+                <circle cx="22" cy="22" r="22" fill="#444444"/>
+                <path d="M10.2857 22.4114L15.3436 24.2974L17.3153 30.6412C17.401 31.0699 17.9154 31.1556 18.2583 30.8984L21.0873 28.5838C21.3445 28.3266 21.7731 28.3266 22.116 28.5838L27.1739 32.27C27.5168 32.5272 28.0312 32.3558 28.1169 31.9271L31.8889 13.9245C31.9746 13.4958 31.546 13.0672 31.1173 13.2387L10.2857 21.297C9.77131 21.4684 9.77131 22.24 10.2857 22.4114ZM17.0581 23.3544L27.0024 17.2678C27.1739 17.1821 27.3453 17.4393 27.1739 17.525L19.0298 25.1547C18.7726 25.4119 18.5155 25.7548 18.5155 26.1834L18.2583 28.2409C18.2583 28.4981 17.8297 28.5838 17.7439 28.2409L16.7152 24.4689C16.458 24.0403 16.6295 23.5259 17.0581 23.3544Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_901_2525">
+                <rect width="44" height="44" rx="22" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              </a>
+            </li>
+            <li class="footer_li">
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                <g clip-path="url(#clip0_901_2521)">
+                <circle cx="22" cy="22" r="22" fill="#444444"/>
+                <path d="M30.7195 13.2687C28.5463 11.103 25.6488 9.8999 22.5902 9.8999C16.2317 9.8999 11.0805 15.0332 11.0805 21.3697C11.0805 23.3749 11.6439 25.3801 12.6098 27.0645L11 32.9999L17.1171 31.3957C18.8073 32.278 20.6585 32.7593 22.5902 32.7593C28.9488 32.7593 34.1 27.6259 34.1 21.2895C34.0195 18.3218 32.8927 15.4343 30.7195 13.2687ZM28.1439 25.4603C27.9024 26.102 26.7756 26.7437 26.2122 26.8239C25.7293 26.9041 25.0854 26.9041 24.4415 26.7437C24.039 26.5832 23.4756 26.4228 22.8317 26.102C19.9341 24.8989 18.0829 22.0114 17.922 21.7707C17.761 21.6103 16.7146 20.2468 16.7146 18.803C16.7146 17.3593 17.439 16.7176 17.6805 16.3968C17.922 16.0759 18.2439 16.0759 18.4854 16.0759C18.6463 16.0759 18.8878 16.0759 19.0488 16.0759C19.2098 16.0759 19.4512 15.9957 19.6927 16.5572C19.9341 17.1187 20.4976 18.5624 20.578 18.6426C20.6585 18.803 20.6585 18.9634 20.578 19.1239C20.4976 19.2843 20.4171 19.4447 20.2561 19.6051C20.0951 19.7655 19.9341 20.0062 19.8537 20.0864C19.6927 20.2468 19.5317 20.4072 19.6927 20.6478C19.8537 20.9687 20.4171 21.8509 21.3024 22.653C22.4293 23.6155 23.3146 23.9364 23.6366 24.0968C23.9585 24.2572 24.1195 24.177 24.2805 24.0166C24.4415 23.8562 25.0049 23.2145 25.1659 22.8937C25.3268 22.5728 25.5683 22.653 25.8098 22.7332C26.0512 22.8134 27.5 23.5353 27.7415 23.6957C28.0634 23.8562 28.2244 23.9364 28.3049 24.0166C28.3854 24.2572 28.3854 24.8187 28.1439 25.4603Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_901_2521">
+                <rect width="44" height="44" rx="22" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+  </body>
+
+  
+</html>
